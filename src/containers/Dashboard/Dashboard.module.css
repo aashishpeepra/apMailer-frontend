@@ -1,0 +1,60 @@
+.Dashboard{
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+}
+.Dashboard_nav{
+    padding:2rem 3rem;
+    width: 20%;
+    background-color: #f6f6f6;
+}
+.Dashboard_nav_head{
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.Dashboard_nav_head h2{
+    font-size: 240%;
+    font-weight: 600;
+}
+.Dashboard_nav_head h5{
+    font-size: 90%;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+}
+.Dashboard_nav_links{
+    text-align: left;
+}
+.Dashboard_nav_links ul{
+    list-style: none;
+}
+
+
+.Dashboard_body{
+    width: 100%;
+    padding: 2rem 4rem;;
+}
+
+.Dashboard_body form fieldset{
+    border:0px;
+}
+.Dashboard_body form fieldset label{
+    display: block;
+    margin-bottom: 3px;
+}
+.Dashboard_body form{
+    text-align: left;
+}
+.Dashboard form fieldset input, .Dashboard form fieldset select{
+    height: 2.1rem;
+    width: 70%;
+    padding:2px 6px;
+    font-size: 90%;
+}
+.Dashboard_body form fieldset{
+    margin:2rem 0rem;
+}
+.Dashboard_body_editor{
+   
+    width: 70%;;
+}

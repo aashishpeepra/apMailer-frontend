@@ -1,0 +1,24 @@
+.btn{
+    text-decoration: none;
+    color:inherit;
+    border:1px solid #111;
+    color:#111;
+    /* background-color: #fff; */
+    text-align: center;
+    padding: 5px 0px;
+    width: 10rem;
+    margin: 2rem 0rem;
+    transition: all ease-in 0.2s;
+    display: block;
+    max-height:2rem;
+    cursor: pointer;
+    background-color: inherit;
+  
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover, .active{
+    background-color: #111;
+    color:#fff !important;
+}

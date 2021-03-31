@@ -1,0 +1,58 @@
+.Auth{
+    padding-top: 5vh;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 90vh;
+    align-items: center;
+    box-shadow: 10px 20px 30px #eee;
+    border-radius: 2rem;;
+}
+.Auth aside{
+    width:50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Auth aside h1{
+    margin-bottom: 4rem;;
+}
+.Auth_aside_img_holder{
+    height:auto;
+    width: 80%;
+}
+.Auth_aside_img_holder img{
+    height: 100%;
+    width: 100%;;
+}
+.Auth section {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.Auth aside , .Auth section{
+    padding:2rem 2rem;
+}
+.Auth section form fieldset{
+    border:0px;
+    margin:2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:25%;
+}
+.Auth section form fieldset label{
+    display: block;
+    margin-bottom: 2px;
+}
+.Auth section form fieldset input{
+    height:2rem;
+    width:80%;
+    max-width: 400px;
+    padding:2px 5px;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+}
