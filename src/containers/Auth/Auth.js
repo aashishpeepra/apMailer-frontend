@@ -16,7 +16,7 @@ export default function Auth(props) {
     event.preventDefault();
     setVerifying(true);
     // submit details to backend
-    fetch("https://localhost:5000/api/user/login", {
+    fetch("/api/user/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
