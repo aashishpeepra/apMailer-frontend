@@ -16,7 +16,7 @@ export default function SendMail(props) {
   const handleSendEmailSubmit = (e) => {
     e.preventDefault();
     setSending(true);
-    fetch("http://localhost:5000/api/mail/sendmail", {
+    fetch("https://localhost:5000/api/mail/sendmail", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
